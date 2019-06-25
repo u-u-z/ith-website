@@ -267,24 +267,14 @@
       color: #fff;
     }
 
-    .background-page1 {
-      pointer-events: none;
-      position: fixed;
-      width: 100%;
-      top: 0;
-      left: 0;
-      height: 100%;
-      z-index: 99999;
-      background-repeat: no-repeat;
+    .background-all-page {
+      background-image:url(../assets/bg.jpg);
       background-size:cover;
-      opacity: 0.1;
-      min-width: 1000px;
-      background-position: center 0;
     }
   </style>
 </head>
 
-<body style="background-image:url(../assets/bg.jpg);background-size:cover;">
+<body class="background-all-page" >
   <div id="app"></div>
   <script src="dist/build.js"></script>
   <script>
