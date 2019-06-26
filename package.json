@@ -10,7 +10,8 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "element-ui": "^2.4.5",
-    "vue": "^2.6.10"
+    "vue": "^2.6.10",
+    "vue-fullpage.js": "^0.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.8.0",
@@ -20,6 +21,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "vue-cli-plugin-element": "^1.0.1",
+    "vue-cli-plugin-fullpage": "^1.0.2",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
