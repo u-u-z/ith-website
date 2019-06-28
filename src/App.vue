@@ -46,40 +46,7 @@
       </div>
       <div class="section">
         <div class="slide">
-          <el-row justify="center" align="middle">
-            <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
-            <el-col :xs="16" :sm="16" :md="16" :lg="16" :xl="16">
-              <el-row>
-                <el-card class="box-card">
-                  <div slot="header" class="clearfix">
-                    <span>比赛基本信息</span>
-                    <a href="https://wj.qq.com/s2/3875056/e34a/" target="_blank">
-                      <el-button style="float: right; padding: 3px 0" type="text">我要报名</el-button>
-                    </a>
-                  </div>
-                  <div class="text item">时间：2019年7月19日-21日</div>
-                  <div class="text item">现场比赛：哈尔滨国际会展体育中心c厅 - 哈尔滨国际青少年动漫周冰都幻想乡社团展位</div>
-                  <div class="text item">线上比赛：国裕云谷数据中心 - 红魔馆专线</div>
-                  <div class="text item">活动组织：冰都幻想乡 - 哈尔滨东方Project同好会</div>
-                  <div class="text item">
-                    <el-divider></el-divider>
-                  </div>
-                  <div class="text item">
-                    <center>
-                      <el-progress :percentage="70"></el-progress>赛事正在筹备中 ··· 
-                    </center>
-                  </div>
-                  <div class="text item">
-                    <center>
-                      <el-button style="padding: 3px 0" type="text">赛制说明 $></el-button>
-                      <el-button style="padding: 3px 0" type="text">奖项设置 $></el-button>
-                    </center>
-                  </div>
-                </el-card>
-              </el-row>
-            </el-col>
-            <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
-          </el-row>
+          <BasicInfo21/>
         </div>
         <div class="slide">
           <h3>Slide 2.2</h3>
@@ -99,9 +66,13 @@
 </template>
 
 <script>
+import BasicInfo21 from './components/BasicInfo21.vue'
+
 export default {
   name: "App",
-  components: {},
+  components: {
+    BasicInfo21
+  },
   data() {
     return {
       options: {
@@ -120,21 +91,7 @@ export default {
   text-align: center;
   color: #fff;
 }
-
-.text {
-  font-size: 14px;
-}
-
-.item {
-  margin-bottom: 18px;
-}
-
-.clearfix:before,
-.clearfix:after {
-  display: table;
-  content: "";
-}
-.clearfix:after {
-  clear: both;
+.my-default-color {
+  color: #fff;
 }
 </style>
