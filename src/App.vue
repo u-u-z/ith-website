@@ -1,26 +1,14 @@
 <template>
   <div>
-    <!--
-    <full-page ref="fullpage" :options="options" id="fullpage">
-      <div class="section">
-        <h2>Second 1</h2>
-      </div>
-      <div class="section">
-        <h2>Second 2</h2>
-      </div>
-      <div class="section">
-        <h2>Second 3</h2>
-      </div>
-    </full-page>-->
     <ul id="menu">
       <li data-menuanchor="page1" class="active">
-        <a href="#page1">Section 1</a>
+        <a href="#page1">首页</a>
       </li>
       <li data-menuanchor="page2">
-        <a href="#page2">Section 2</a>
+        <a href="#page2">比赛信息</a>
       </li>
       <li data-menuanchor="page3">
-        <a href="#page3">Section 3</a>
+        <a href="#page3">关于我们</a>
       </li>
       <li>
         <a href="https://twitter.com/imac2" target="_blank" rel="noopener" class="twitter-share">
@@ -36,17 +24,30 @@
     </ul>
     <ul class="actions">
       <li>
-        <a class="actions-button" href="#" rel="noopener">Add section</a>
+        <a class="actions-button"  href="https://wj.qq.com/s2/3875056/e34a/" target="_blank" rel="noopener">则赛报名入口</a>
+      </li><li>
+        <a class="actions-button"  href="#" target="_blank" rel="noopener">比赛说明文档</a>
       </li>
     </ul>
+    
 
     <full-page :options="options" id="fullpage">
-      <div class="section">
-        <h3>Section 1</h3>
+      <div class="section" style>
+        <h3>时夏格斗祭</h3>
+        <p class="my-center">
+          冰都幻想乡 - 绯想天则线上线下混合水友赛
+        </p>
       </div>
       <div class="section">
         <div class="slide">
-          <h3>Slide 2.1</h3>
+          <el-row justify="center" align="middle">
+            <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
+            <el-col :xs="16" :sm="16" :md="16" :lg="16" :xl="16">
+              <el-row>
+              </el-row>
+            </el-col>
+            <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
+          </el-row>
         </div>
         <div class="slide">
           <h3>Slide 2.2</h3>
@@ -71,271 +72,17 @@ export default {
       options: {
         menu: "#menu",
         anchors: ["page1", "page2", "page3"],
-        sectionsColor: ["#41b883", "#ff5f45", "#0798ec"]
+        scrollOverflow: true,
+        scrollBar: false,
+        navigation: true
       }
     };
   }
 };
 </script>
 <style>
-blockquote,
-body,
-dd,
-div,
-dl,
-dt,
-fieldset,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-input,
-li,
-ol,
-p,
-pre,
-td,
-textarea,
-th,
-ul {
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
-
-table {
-  border-spacing: 0;
-}
-
-fieldset,
-img {
-  border: 0;
-}
-
-address,
-caption,
-cite,
-code,
-dfn,
-em,
-strong,
-th,
-var {
-  font-weight: 400;
-  font-style: normal;
-}
-
-strong {
-  font-weight: 700;
-}
-
-ol,
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-caption,
-th {
-  text-align: left;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 400;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-q:after,
-q:before {
-  content: "";
-}
-
-abbr,
-acronym {
-  border: 0;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: arial, helvetica;
-}
-* {
-  margin: 0;
-  padding: 0;
-}
-.section {
+.my-center{
   text-align: center;
-  color: aliceblue;
-}
-#menu-line {
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  width: 159px;
-  height: 2px;
-  background: #fff;
-}
-
-#menu {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 70;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  letter-spacing: 1px;
-  font-size: 1.1em;
-}
-
-#menu li {
-  display: inline-block;
-  margin: 10px 0;
-  position: relative;
-}
-
-#menu a {
-  color: #fff;
-  padding: 0 1.1em 1.1em 1.1em;
-}
-
-#menu li.active a:after {
-  content: "";
-  margin: 0 1.1em 0 1.1em;
-  height: 2px;
-  background: #fff;
-  display: block;
-  position: absolute;
-  bottom: -6px;
-  left: 0;
-  right: 0;
-  display: block;
-}
-
-.actions {
-  position: fixed;
-  bottom: 2%;
-  margin: 0 auto;
-  z-index: 99;
-  left: 0;
-  right: 0;
-  text-align: center;
-}
-
-.actions li {
-  display: inline-block;
-  margin: 0.3em 0.3em;
-}
-
-.actions-button {
-  padding: 0.73em 1.47em;
-  background: rgba(53, 73, 94, 0.47);
-  border-radius: 5px;
-  display: block;
-  color: #fff;
-}
-.twitter-share i {
-  vertical-align: middle;
-  position: relative;
-  top: 2px;
-  display: inline-block;
-  width: 38px;
-  height: 14px;
-  color: #fff;
-  top: -4px;
-  left: -2px;
-  fill: #fff;
-}
-
-.twitter-share svg {
-  height: 40px;
-  margin-top: -10px;
-}
-
-#logo {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  color: #fff;
-  font-weight: 700;
-  z-index: 99;
-  font-size: 1.9em;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-}
-
-.section {
-  position: relative;
-}
-
-#section-1 {
-  text-align: center;
-}
-
-#section-1 h2 {
-  color: #fff;
-  font-size: 10em;
-  font-weight: 900;
-}
-
-#section-1 h1 {
-  font-size: 2em;
-  font-weight: 100;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-  margin: 1.5em auto 1em auto;
-  color: #35495e;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-#section-1 li {
-  display: inline-block;
-  margin: 1.25em 0.3em;
-}
-
-.section-1-button {
-  padding: 0.93em 1.87em;
-  background: #35495e;
-  border-radius: 5px;
-  display: block;
-  color: #fff;
-}
-h3 {
-  font-size: 5em;
-  text-align: center;
-  color: #fff;
-  font-weight: 700;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
+  color:#fff;
 }
 </style>
