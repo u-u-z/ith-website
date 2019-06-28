@@ -8,7 +8,10 @@
         <a href="#page2">比赛信息</a>
       </li>
       <li data-menuanchor="page3">
-        <a href="#page3">关于我们</a>
+        <a href="#page3">社团支援</a>
+      </li>
+      <li data-menuanchor="page4">
+        <a href="#page4">关于我们</a>
       </li>
       <li>
         <a href="https://twitter.com/imac2" target="_blank" rel="noopener" class="twitter-share">
@@ -49,10 +52,29 @@
               <el-row>
                 <el-card class="box-card">
                   <div slot="header" class="clearfix">
-                    <span>卡片名称</span>
-                    <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
+                    <span>比赛基本信息</span>
+                    <a href="https://wj.qq.com/s2/3875056/e34a/" target="_blank">
+                      <el-button style="float: right; padding: 3px 0" type="text">我要报名</el-button>
+                    </a>
                   </div>
-                  <div v-for="o in 4" :key="o" class="text item">{{'列表内容 ' + o }}</div>
+                  <div class="text item">时间：2019年7月19日-21日</div>
+                  <div class="text item">现场比赛：哈尔滨国际会展体育中心c厅 - 哈尔滨国际青少年动漫周冰都幻想乡社团展位</div>
+                  <div class="text item">线上比赛：国裕云谷数据中心 - 红魔馆专线</div>
+                  <div class="text item">活动组织：冰都幻想乡 - 哈尔滨东方Project同好会</div>
+                  <div class="text item">
+                    <el-divider></el-divider>
+                  </div>
+                  <div class="text item">
+                    <center>
+                      <el-progress :percentage="70"></el-progress>赛事正在筹备中 ··· 
+                    </center>
+                  </div>
+                  <div class="text item">
+                    <center>
+                      <el-button style="padding: 3px 0" type="text">赛制说明 $></el-button>
+                      <el-button style="padding: 3px 0" type="text">奖项设置 $></el-button>
+                    </center>
+                  </div>
                 </el-card>
               </el-row>
             </el-col>
@@ -69,6 +91,9 @@
       <div class="section">
         <h3>Section 3</h3>
       </div>
+      <div class="section">
+        <h3>Section 4</h3>
+      </div>
     </full-page>
   </div>
 </template>
@@ -81,7 +106,7 @@ export default {
     return {
       options: {
         menu: "#menu",
-        anchors: ["page1", "page2", "page3"],
+        anchors: ["page1", "page2", "page3", "page4"],
         scrollOverflow: true,
         scrollBar: false,
         navigation: true
@@ -97,23 +122,19 @@ export default {
 }
 
 .text {
-    font-size: 14px;
-  }
+  font-size: 14px;
+}
 
-  .item {
-    margin-bottom: 18px;
-  }
+.item {
+  margin-bottom: 18px;
+}
 
-  .clearfix:before,
-  .clearfix:after {
-    display: table;
-    content: "";
-  }
-  .clearfix:after {
-    clear: both
-  }
-
-  .box-card {
-    width: 480px;
-  }
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
 </style>
