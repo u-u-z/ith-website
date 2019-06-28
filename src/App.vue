@@ -24,19 +24,22 @@
     </ul>
     <ul class="actions">
       <li>
-        <a class="actions-button"  href="https://wj.qq.com/s2/3875056/e34a/" target="_blank" rel="noopener">则赛报名入口</a>
-      </li><li>
-        <a class="actions-button"  href="#" target="_blank" rel="noopener">比赛说明文档</a>
+        <a
+          class="actions-button"
+          href="https://wj.qq.com/s2/3875056/e34a/"
+          target="_blank"
+          rel="noopener"
+        >则赛报名入口</a>
+      </li>
+      <li>
+        <a class="actions-button" href="#" target="_blank" rel="noopener">比赛说明文档</a>
       </li>
     </ul>
-    
 
     <full-page :options="options" id="fullpage">
       <div class="section" style>
         <h3>时夏格斗祭</h3>
-        <p class="my-center">
-          冰都幻想乡 - 绯想天则线上线下混合水友赛
-        </p>
+        <p class="my-center">冰都幻想乡 - 绯想天则线上线下混合水友赛</p>
       </div>
       <div class="section">
         <div class="slide">
@@ -44,6 +47,13 @@
             <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
             <el-col :xs="16" :sm="16" :md="16" :lg="16" :xl="16">
               <el-row>
+                <el-card class="box-card">
+                  <div slot="header" class="clearfix">
+                    <span>卡片名称</span>
+                    <el-button style="float: right; padding: 3px 0" type="text">操作按钮</el-button>
+                  </div>
+                  <div v-for="o in 4" :key="o" class="text item">{{'列表内容 ' + o }}</div>
+                </el-card>
               </el-row>
             </el-col>
             <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
@@ -81,8 +91,29 @@ export default {
 };
 </script>
 <style>
-.my-center{
+.my-center {
   text-align: center;
-  color:#fff;
+  color: #fff;
 }
+
+.text {
+    font-size: 14px;
+  }
+
+  .item {
+    margin-bottom: 18px;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both
+  }
+
+  .box-card {
+    width: 480px;
+  }
 </style>
