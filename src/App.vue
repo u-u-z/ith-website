@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="section">
-        <h3>Section 3</h3>
+        <Assistance/>
       </div>
       <div class="section">
         <h3>Section 4</h3>
@@ -69,6 +69,7 @@
 import BasicInfo21 from './components/BasicInfo21.vue'
 import BasicInfo22 from './components/BasicInfo22.vue'
 import BasicInfo23 from './components/BasicInfo23.vue'
+import Assistance from './components/Assistance.vue'
 
 
 export default {
@@ -76,7 +77,8 @@ export default {
   components: {
     BasicInfo21,
     BasicInfo22,
-    BasicInfo23
+    BasicInfo23,
+    Assistance
   },
   data() {
     return {
