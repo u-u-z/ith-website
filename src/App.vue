@@ -49,7 +49,7 @@
           <BasicInfo21/>
         </div>
         <div class="slide">
-          <h3>Slide 2.2</h3>
+          <BasicInfo22/>
         </div>
         <div class="slide">
           <h3>Slide 2.3</h3>
@@ -67,11 +67,14 @@
 
 <script>
 import BasicInfo21 from './components/BasicInfo21.vue'
+import BasicInfo22 from './components/BasicInfo22.vue'
+
 
 export default {
   name: "App",
   components: {
-    BasicInfo21
+    BasicInfo21,
+    BasicInfo22
   },
   data() {
     return {
