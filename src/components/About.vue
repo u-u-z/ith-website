@@ -39,7 +39,8 @@
             <div class="text item my-default-color">
               <h5 class="my-center" style="font-size: 130%">鸽子清单</h5>
               <br>
-              <br><center>正在招募中······</center>
+              <br>
+              <center>正在招募中······</center>
             </div>
           </el-col>
         </el-row>

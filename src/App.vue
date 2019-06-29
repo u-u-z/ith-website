@@ -50,6 +50,9 @@
       <li>
         <a class="actions-button" @click="dialogVisible = true" target="_blank" rel="noopener">网站声明</a>
       </li>
+      <li>
+        <a class="actions-button" href="https://ith.moe/old.html" target="_blank" rel="noopener">旧版网站入口</a>
+      </li>
     </ul>
 
     <full-page :options="options" id="fullpage">
