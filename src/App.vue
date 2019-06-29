@@ -2,7 +2,7 @@
   <div>
     <el-dialog title="网站声明" :visible.sync="dialogVisible" width="30%">
       <span>
-        本网站和ZUN没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。
+        本网站和ZUN没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。Q群:97828913
       </span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取 消</el-button>

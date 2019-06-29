@@ -8,8 +8,7 @@
       >
         <div class="my-center">
           <h4 class="my-center" style="font-size: 150%">寄卖及赞助</h4>
-          <br>
-          <br>
+          <el-divider></el-divider>
         </div>
         <el-row>
           <el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12">
@@ -33,7 +32,10 @@
                 class="text item my-default-color"
                 style="padding-left:10%"
               >清璃霜華 - 提供主要物料资源、策划、奖品等···</div>
-              <div class="text item my-default-color" style="padding-left:10%">@182 - 画师（是个很棒的画师）</div>
+              <div
+                class="text item my-default-color"
+                style="padding-left:10%"
+              >@182 、@Snozaki筱崎 - 画师（很棒的画师）</div>
               <div class="text item my-default-color" style="padding-left:10%">哈尔滨国裕数据技术服务有限公司</div>
               <div class="text item my-default-color" style="padding-left:10%">国裕云谷数据中心 - 提供线上则赛专线网络</div>
               <div class="text item my-default-color" style="padding-left:10%">Hostker - 提供网站主机资源</div>
