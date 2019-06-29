@@ -23,16 +23,7 @@
                 <br>来自哈尔滨的东方Project同好会，正在当地试图策划东方爱好者主题的相关活动；是2019年新成立的又新
                 又小的社团，我们需要您的支援！
               </div>
-              <div
-                class="text item my-default-color"
-                icon="el-icon-arrow-left"
-                style="padding-left:10%"
-              >微博：@冰都幻想乡</div>
-              <div class="text item my-default-color" style="padding-left:10%">推特：@HarbinTho</div>
-              <div
-                class="text item my-default-color"
-                style="padding-left:10%"
-              >Q群:97828913 www.ith.moe</div>
+              
             </div>
           </el-col>
           <el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12">
@@ -41,6 +32,14 @@
               <br>
               <br>
               <center>正在招募中······</center>
+              <br>
+              <br>
+              <div class="text item my-default-color" style="padding-left:10%">微博：@冰都幻想乡</div>
+              <div class="text item my-default-color" style="padding-left:10%">推特：@HarbinTho</div>
+              <div
+                class="text item my-default-color"
+                style="padding-left:10%"
+              >Q群:97828913 www.ith.moe</div>
             </div>
           </el-col>
         </el-row>

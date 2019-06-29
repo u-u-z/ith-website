@@ -5,7 +5,7 @@
       <el-row>
         <div
           class="my-basic-info-2-1-blur"
-          style="border:5px solid white;border-radius: 4px;padding:5%;"
+          style="border:5px solid white;border-radius: 4px;padding:3%;"
         >
           <h4 class="my-center" style="font-size: 150%">赛制说明</h4>
 

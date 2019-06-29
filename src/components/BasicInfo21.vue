@@ -5,9 +5,9 @@
       <el-row>
         <div
           class="my-basic-info-2-1-blur"
-          style="border:5px solid white;border-radius: 4px;padding:5%;"
+          style="border:5px solid white;border-radius: 4px;padding:3%;"
         >
-          <h4 class="my-center" style="font-size: 150%">比赛基本信息</h4>
+          <h4 class="my-center" style="font-size: 150%">基本信息</h4>
 
           <br>
           <br>
@@ -18,11 +18,6 @@
           <div class="text item my-default-color">活动组织：冰都幻想乡 - 哈尔滨东方Project同好会</div>
           <div class="text item">
             <el-divider></el-divider>
-          </div>
-          <div class="text item my-default-color">
-            <center>
-              <el-progress :percentage="70"></el-progress>赛事正在筹备中 ···
-            </center>
           </div>
           <div class="text item my-default-color">
             <center>
