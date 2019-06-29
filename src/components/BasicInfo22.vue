@@ -20,11 +20,15 @@
             <el-divider></el-divider>
           </div>
           <div class="text item my-default-color">
-            <br><br>
+            <br>
+            <br>
           </div>
           <div class="text item my-default-color">
             <center>
-              <el-button style="padding: 3px 0" type="text">比赛信息 $></el-button>
+              <a href="/#page2" >
+                <el-button style="padding: 3px 0" type="text">比赛信息 $></el-button>
+              </a>
+
               <el-button style="padding: 3px 0" type="text">奖项设置 $></el-button>
             </center>
           </div>
