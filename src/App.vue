@@ -8,7 +8,7 @@
         <a href="#page2">比赛信息</a>
       </li>
       <li data-menuanchor="page3">
-        <a href="#page3">社团支援</a>
+        <a href="#page3">社团&赞助支援</a>
       </li>
       <li data-menuanchor="page4">
         <a href="#page4">关于我们</a>
@@ -52,7 +52,7 @@
           <BasicInfo22/>
         </div>
         <div class="slide">
-          <h3>Slide 2.3</h3>
+          <BasicInfo23/>
         </div>
       </div>
       <div class="section">
@@ -68,13 +68,15 @@
 <script>
 import BasicInfo21 from './components/BasicInfo21.vue'
 import BasicInfo22 from './components/BasicInfo22.vue'
+import BasicInfo23 from './components/BasicInfo23.vue'
 
 
 export default {
   name: "App",
   components: {
     BasicInfo21,
-    BasicInfo22
+    BasicInfo22,
+    BasicInfo23
   },
   data() {
     return {

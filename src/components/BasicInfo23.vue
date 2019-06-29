@@ -7,30 +7,29 @@
           class="my-basic-info-2-1-blur"
           style="border:5px solid white;border-radius: 4px;padding:5%;"
         >
-          <h4 class="my-center" style="font-size: 150%">比赛基本信息</h4>
+          <h4 class="my-center" style="font-size: 150%">比赛奖项</h4>
 
           <br>
           <br>
           <br>
-          <div class="text item my-default-color">时间：2019年7月19日-21日</div>
-          <div class="text item my-default-color">现场比赛：哈尔滨国际会展体育中心c厅 - 哈尔滨国际青少年动漫周冰都幻想乡社团展位</div>
-          <div class="text item my-default-color">线上比赛：国裕云谷数据中心 - 红魔馆专线</div>
-          <div class="text item my-default-color">活动组织：冰都幻想乡 - 哈尔滨东方Project同好会</div>
+          <div class="text item my-default-color">正在编写中···</div>
+          <div class="text item my-default-color"></div>
+          <div class="text item my-default-color"></div>
+          <div class="text item my-default-color"></div>
           <div class="text item">
             <el-divider></el-divider>
           </div>
           <div class="text item my-default-color">
-            <center>
-              <el-progress :percentage="70"></el-progress>赛事正在筹备中 ···
-            </center>
+            <br>
+            <br>
           </div>
           <div class="text item my-default-color">
             <center>
+              <a href="/#page2">
+                <el-button style="padding: 3px 0" type="text">比赛信息 $></el-button>
+              </a>
               <a href="/#page2/1">
                 <el-button style="padding: 3px 0" type="text">赛制说明 $></el-button>
-              </a>
-              <a href="/#page2/2">
-                <el-button style="padding: 3px 0" type="text">奖项设置 $></el-button>
               </a>
             </center>
           </div>
@@ -43,7 +42,7 @@
 
 <script>
 export default {
-  name: "BasicInfo21"
+  name: "BasicInfo23"
 };
 </script>
 

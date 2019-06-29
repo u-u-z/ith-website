@@ -25,11 +25,12 @@
           </div>
           <div class="text item my-default-color">
             <center>
-              <a href="/#page2" >
+              <a href="/#page2">
                 <el-button style="padding: 3px 0" type="text">比赛信息 $></el-button>
               </a>
-
-              <el-button style="padding: 3px 0" type="text">奖项设置 $></el-button>
+              <a href="/#page2/2">
+                <el-button style="padding: 3px 0" type="text">奖项设置 $></el-button>
+              </a>
             </center>
           </div>
         </div>
