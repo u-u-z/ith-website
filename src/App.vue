@@ -2,7 +2,9 @@
   <div>
     <el-dialog title="网站声明" :visible.sync="dialogVisible" width="30%">
       <span>
-        本网站和ZUN没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。Q群:97828913
+        本网站和ZUN及上海爱丽丝幻乐团没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。Q群:97828913<br>
+        网站使用 fullpage-vue 开发，遵循GPLv3 开源协议，项目repo开源在：<br>
+        https://github.com/u-u-z/ith-website
       </span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取 消</el-button>
