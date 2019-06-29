@@ -2,11 +2,27 @@
   <el-row justify="center" align="middle">
     <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
     <el-col :xs="16" :sm="16" :md="16" :lg="16" :xl="16">
-      <el-row>
-        <el-col :xs="8" :sm="8" :md="8" :lg="8" :xl="8">test</el-col>
-        <el-col :xs="8" :sm="8" :md="8" :lg="8" :xl="8">test</el-col>
-        <el-col :xs="8" :sm="8" :md="8" :lg="8" :xl="8">test</el-col>
-      </el-row>
+      <div
+        class="my-basic-info-2-1-blur"
+        style="border:5px solid white;border-radius: 4px;padding:5%;"
+      >
+        <div class="my-center">
+          <h4 class="my-center" style="font-size: 150%">寄卖社团</h4>
+          <br>
+          <br>
+        </div>
+        <el-row>
+          <el-col :xs="8" :sm="8" :md="8" :lg="8" :xl="8">
+            <div class="text item my-default-color"><center>THP 社团</center></div>
+          </el-col>
+          <el-col :xs="8" :sm="8" :md="8" :lg="8" :xl="8">
+            <div class="text item my-default-color"><center>清璃神社⛩️</center></div>
+          </el-col>
+          <el-col :xs="8" :sm="8" :md="8" :lg="8" :xl="8">
+            <div class="text item my-default-color"><center>清璃霜华</center></div>
+          </el-col>
+        </el-row>
+      </div>
     </el-col>
     <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">&nbsp;</el-col>
   </el-row>
@@ -14,7 +30,13 @@
 
 <script>
 export default {
-  name: "Assistance"
+  name: "Assistance",
+  data() {
+    return {
+      thplogo: "../assets/thp.jpg",
+      test: "test"
+    };
+  }
 };
 </script>
 
