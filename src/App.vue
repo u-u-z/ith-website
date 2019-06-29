@@ -8,11 +8,11 @@
         <a href="#page2">比赛信息</a>
       </li>
       <li data-menuanchor="page3">
-        <a href="#page3">寄卖社团</a>
+        <a href="#page3">寄卖&赞助</a>
       </li>
       <li data-menuanchor="page4">
         <a href="#page4">关于我们</a>
-      </li>
+      </li><!--
       <li>
         <a href="https://twitter.com/imac2" target="_blank" rel="noopener" class="twitter-share">
           <i>
@@ -23,7 +23,7 @@
             </svg>
           </i>
         </a>
-      </li>
+      </li>-->
     </ul>
     <ul class="actions">
       <li>
