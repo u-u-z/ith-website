@@ -7,7 +7,7 @@
         style="border:5px solid white;border-radius: 4px;padding:5%;"
       >
         <div class="my-center">
-          <h4 class="my-center" style="font-size: 150%">寄卖及赞助</h4>
+          <h4 class="my-center" style="font-size: 150%">关于我们</h4>
           <br>
           <br>
         </div>
@@ -18,10 +18,12 @@
                 <h5 class="my-center" style="font-size: 130%">相关社团</h5>
                 <br>
                 <br>
-                <div class="text item my-default-color" style="padding-left:10%">THP - 提供寄卖、比赛奖品赠送</div>
-                <br>
-                <img width="60" src="../assets/thp.jpg">
               </center>
+              <div class="text item my-default-color" style="padding-left:10%">
+                <p>本网站和ZUN没有直接关系。 咨询以及深入合作请联系东方清泉飨筹委会。 此外，禁止擅自转载在本网站上登载的内容和图像。</p>
+                <br>
+                <p>由于国内部分地区网络连接质量波动及国际入口近期质量较差，因此预售将延期，此次变动带来的不便之处，我们深表歉意。</p>
+              </div>
             </div>
           </el-col>
           <el-col :xs="12" :sm="12" :md="12" :lg="12" :xl="12">
@@ -38,6 +40,13 @@
               <div class="text item my-default-color" style="padding-left:10%">国裕云谷数据中心 - 提供线上则赛专线网络</div>
               <div class="text item my-default-color" style="padding-left:10%">Hostker - 提供网站主机资源</div>
               <div class="text item my-default-color" style="padding-left:10%">哈尔滨国际会展体育中心</div>
+
+              <center>
+                <br>
+                <br>
+                <br>
+                <br>
+              </center>
             </div>
           </el-col>
         </el-row>
@@ -49,7 +58,7 @@
 
 <script>
 export default {
-  name: "Assistance",
+  name: "About",
   data() {
     return {
       thplogo: "../assets/thp.jpg",

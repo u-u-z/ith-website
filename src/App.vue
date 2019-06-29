@@ -1,5 +1,14 @@
 <template>
   <div>
+    <el-dialog title="网站声明" :visible.sync="dialogVisible" width="30%">
+      <span>
+        本网站和ZUN没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。
+      </span>
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="dialogVisible = false">取 消</el-button>
+        <el-button type="primary" @click="dialogVisible = false">确 定</el-button>
+      </span>
+    </el-dialog>
     <ul id="menu">
       <li data-menuanchor="page1" class="active">
         <a href="#page1">首页</a>
@@ -12,7 +21,8 @@
       </li>
       <li data-menuanchor="page4">
         <a href="#page4">关于我们</a>
-      </li><!--
+      </li>
+      <!--
       <li>
         <a href="https://twitter.com/imac2" target="_blank" rel="noopener" class="twitter-share">
           <i>
@@ -37,6 +47,9 @@
       <li>
         <a class="actions-button" href="#" target="_blank" rel="noopener">比赛说明文档</a>
       </li>
+      <li>
+        <a class="actions-button" @click="dialogVisible = true" target="_blank" rel="noopener">网站声明</a>
+      </li>
     </ul>
 
     <full-page :options="options" id="fullpage">
@@ -59,18 +72,18 @@
         <Assistance/>
       </div>
       <div class="section">
-        <h3>Section 4</h3>
+        <About/>
       </div>
     </full-page>
   </div>
 </template>
 
 <script>
-import BasicInfo21 from './components/BasicInfo21.vue'
-import BasicInfo22 from './components/BasicInfo22.vue'
-import BasicInfo23 from './components/BasicInfo23.vue'
-import Assistance from './components/Assistance.vue'
-
+import BasicInfo21 from "./components/BasicInfo21.vue";
+import BasicInfo22 from "./components/BasicInfo22.vue";
+import BasicInfo23 from "./components/BasicInfo23.vue";
+import Assistance from "./components/Assistance.vue";
+import About from "./components/About.vue";
 
 export default {
   name: "App",
@@ -78,7 +91,8 @@ export default {
     BasicInfo21,
     BasicInfo22,
     BasicInfo23,
-    Assistance
+    Assistance,
+    About
   },
   data() {
     return {
@@ -88,9 +102,11 @@ export default {
         scrollOverflow: true,
         scrollBar: false,
         navigation: true
-      }
+      },
+      dialogVisible: false
     };
-  }
+  },
+  methods: {}
 };
 </script>
 <style>
