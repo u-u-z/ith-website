@@ -6,5 +6,4 @@ COPY . /home/ith-website
 RUN yarn config set registry http://registry.npm.taobao.org/ && \
     yarn install
 EXPOSE 8080
-ENTRYPOINT ["yarn", "run"]
-CMD ["serve"]
+CMD ["yarn","serve"]
