@@ -2,9 +2,9 @@
   <div>
     <el-dialog title="网站声明" :visible.sync="dialogVisible" width="30%">
       <span>
-        本网站和ZUN及上海爱丽丝幻乐团没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。Q群:97828913<br>
-        网站使用 fullpage-vue 开发，遵循GPLv3 开源协议，项目repo开源在：<br>
-        https://github.com/u-u-z/ith-website
+        本网站和ZUN及上海爱丽丝幻乐团没有直接关系。咨询以及深入合作请联系东方幻想乡决策组。Q群:97828913
+        <br />网站使用 fullpage-vue 开发，遵循GPLv3 开源协议，项目repo开源在：
+        <br />https://github.com/u-u-z/ith-website
       </span>
       <span slot="footer" class="dialog-footer">
         <el-button @click="dialogVisible = false">取 消</el-button>
@@ -47,8 +47,14 @@
         >则赛报名入口</a>
       </li>
       <li>
-        <a class="actions-button" href="#" target="_blank" rel="noopener">比赛说明文档</a>
-      </li><!--
+        <a
+          class="actions-button"
+          href="https://ith.moe/manual.pdf"
+          target="_blank"
+          rel="noopener"
+        >比赛说明文档</a>
+      </li>
+      <!--
       <li>
         <a class="actions-button" @click="dialogVisible = true" target="_blank" rel="noopener">网站声明</a>
       </li>
@@ -64,20 +70,20 @@
       </div>
       <div class="section">
         <div class="slide">
-          <BasicInfo21/>
+          <BasicInfo21 />
         </div>
         <div class="slide">
-          <BasicInfo22/>
+          <BasicInfo22 />
         </div>
         <div class="slide">
-          <BasicInfo23/>
+          <BasicInfo23 />
         </div>
       </div>
       <div class="section">
-        <Assistance/>
+        <Assistance />
       </div>
       <div class="section">
-        <About/>
+        <About />
       </div>
     </full-page>
   </div>

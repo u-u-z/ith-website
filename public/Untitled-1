@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="description" content="这里是冰都幻想乡，哈尔滨东方Project同好会，在当地策划东方主题活动、周边等，是一个又新又小的无名社团。">
+<!DOCTYPE html><html lang=en><head>
+<meta charset=utf-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name="description" content="这里是冰都幻想乡，哈尔滨东方Project同好会，在当地策划东方主题活动、周边等，是一个又新又小的无名社团。">
 <meta name="keyword" content="冰都幻想乡,哈尔滨THO,哈尔滨东方">
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <title>时夏格斗祭 - 冰都幻想乡</title>
-  <link rel="stylesheet" href="<%= BASE_URL %>fullpage.min.css">
-  <style>
-    body {
+<link rel=icon href=/favicon.ico><title>时夏格斗祭 - 冰都幻想乡</title>
+<link rel=stylesheet href=/fullpage.min.css><style>body {
       font-family: arial, helvetica;
-      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("<%= BASE_URL %>background.jpg");
-      background-size: cover;
+      background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("https://remi.mosharp.xyz/touhou/background.jpg");background-size: cover;
     }
 
     blockquote,
@@ -269,23 +262,8 @@
     .twitter-share svg {
       height: 40px;
       margin-top: -10px
-    }
-  </style>
-</head>
-
-<body>
-  <noscript>
-    <strong>We're sorry but ith-website doesn't work properly without JavaScript enabled. Please enable it to
-      continue.</strong>
-  </noscript>
-  <div id="app"></div>
-  <!-- built files will be auto injected -->
-</body>
-<script>
-
-console.log("冰都幻想鄉 Q群：97828913")
+    }</style><link href=/css/app.61762faa.css rel=preload as=style><link href=/css/chunk-vendors.46f94e1b.css rel=preload as=style><link href=/js/app.cd51b35b.js rel=preload as=script><link href=/js/chunk-vendors.da063745.js rel=preload as=script><link href=/css/chunk-vendors.46f94e1b.css rel=stylesheet><link href=/css/app.61762faa.css rel=stylesheet></head><body><noscript><strong>We're sorry but ith-website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.da063745.js></script><script src=/js/app.cd51b35b.js></script></body><script>console.log("冰都幻想鄉 Q群：97828913")
 console.log("自豪的使用 vue 及 vue-fullpage 進行前端開發")
 console.log("本項目遵從 vue-fullpage 的 GPLv3 開源協議，開源代碼地址：https://github.com/u-u-z/ith-website")
-</script>
-
-</html>
+console.log("感謝櫻花社遊戲的大佬，本站靈感來源于濟南THO網站")
+</script></html>
