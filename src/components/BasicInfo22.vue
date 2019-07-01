@@ -12,15 +12,14 @@
           <br>
           <br>
           <br>
-          <div class="text item my-default-color">正在编写中···</div>
           <div class="text item my-default-color"></div>
+          <div class="text item my-default-color">比赛分为四部分：32强晋级16强比赛、16强晋级8强比赛、8强晋级4强比赛 及 半决赛、季军赛 及 总决赛</div>
           <div class="text item my-default-color"></div>
-          <div class="text item my-default-color"></div>
+          <div class="text item my-default-color">单局赛、五局赛，赛制说明具体规则详见《赛事手册》</div>
           <div class="text item">
             <el-divider></el-divider>
           </div>
           <div class="text item my-default-color">
-            <br>
             <br>
           </div>
           <div class="text item my-default-color">
