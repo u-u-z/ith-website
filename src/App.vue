@@ -52,7 +52,7 @@
           href="https://ith.moe/manual.pdf"
           target="_blank"
           rel="noopener"
-        >比赛说明文档</a>
+        >《赛事手册》</a>
       </li>
       <!--
       <li>
