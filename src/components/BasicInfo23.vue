@@ -9,19 +9,22 @@
         >
           <h4 class="my-center" style="font-size: 150%">比赛奖项</h4>
 
-          <br>
-          <br>
-          <br>
-          <div class="text item my-default-color">正在编写中···</div>
-          <div class="text item my-default-color"></div>
+          <br />
+          <br />
+          <br />
+          <div class="text item my-default-color">有奖项名次：1st、2nd、3rd、及4th-8th；</div>
+          <div class="text item my-default-color">
+            位次奖品名单将在比赛开始前三天公布。总决赛结束后举行颁奖仪式，线下参与者可现场领取奖品。总决赛结束后七日之内，线上参与者应提供收货地址，便于发
+            出奖品快递。奖品设置详见群内通知。
+          </div>
           <div class="text item my-default-color"></div>
           <div class="text item my-default-color"></div>
           <div class="text item">
             <el-divider></el-divider>
           </div>
           <div class="text item my-default-color">
-            <br>
-            <br>
+            <br />
+            <br />
           </div>
           <div class="text item my-default-color">
             <center>
