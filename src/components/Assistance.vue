@@ -31,7 +31,7 @@
               <div
                 class="text item my-default-color"
                 style="padding-left:10%"
-              >清璃霜華 、@182 、@Snozaki筱崎</div>
+              >清璃霜華 、@182 、@Snozaki筱崎、@YUKI</div>
               <div class="text item my-default-color" style="padding-left:10%">哈尔滨国裕数据技术服务有限公司·国裕云谷数据中心</div>
               <div class="text item my-default-color" style="padding-left:10%">Hostker </div>
             </div>
