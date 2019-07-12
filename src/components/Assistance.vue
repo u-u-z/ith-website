@@ -17,9 +17,9 @@
                 <h5 class="my-center" style="font-size: 130%">相关社团</h5>
                 <br>
                 <br>
-                <div class="text item my-default-color" style="padding-left:10%">THP - 提供寄卖、比赛奖品赠送</div>
-                <br>
-                <img width="60" src="../assets/thp.jpg">
+                <div class="text item my-default-color" style="padding-left:10%">THP、灿华幻梦同人社团- 提供寄卖、比赛奖品赠送</div>
+                <img height="60" src="../assets/thp.jpg">
+                <img height="60" width="150" src="../assets/canhuahuanmeng.jpg" style="padding:2%">
               </center>
             </div>
           </el-col>
