@@ -19,7 +19,10 @@
                 <br>
                 <div class="text item my-default-color" style="padding-left:10%">THP、灿华幻梦同人社团- 提供寄卖、比赛奖品赠送</div>
                 <img height="60" src="../assets/thp.jpg">
-                <img height="60" width="150" src="../assets/canhuahuanmeng.jpg" style="padding:2%">
+                <div class="text item my-default-color" style="width:100%">
+                  <el-image src="https://www-ith-moe-static.smartgslb.com/canhuahuanmeng.jpg"></el-image>
+                </div>
+                
               </center>
             </div>
           </el-col>
